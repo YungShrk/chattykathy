@@ -23,11 +23,15 @@ The repository is public and accessible to everyone!
 
 Instructions:
 
-Set up .env:
+Open up in VSCode
+
+Set up .env in chatAppKathy directory:
 PORT=5000
 MONGO_DB_URI="mongodb+srv://wyattprutch:cs314@chatapp.8q1skba.mongodb.net/?retryWrites=true&w=majority&appName=chatapp"
 JWT_SECRET=eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTcxNzczOTAzNSwiaWF0IjoxNzE3NzM5MDM1fQ.qtzq3qjGkr9YKQTQfiLFTkjqcQOODYMpF5olCZvnjX4
 NODE_ENV=development
+
+CD into chatAppKathy
 
 Build the app:
 npm run build
