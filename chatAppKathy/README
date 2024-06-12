@@ -1,7 +1,46 @@
-Set up .env:
+Authors:
+Wyatt Prutch 
+Alvaro Bazan 
+(1)Describe how you structured and implemented the project:
+We structured the project, named "Chatty Kathy," by first determining the division of responsibilities between the frontend and backend development. Given Wyatt's extensive experience with JavaScript, he took charge of implementing the backend. This involved handling messaging, profile creation, server connections, and database interactions using MongoDB. Wyatt also ensured the proper management of group messages, security protocols, and password functionality.
 
+On the other hand, I focused on the frontend development due to my proficiency with CSS and HTML. My responsibilities included designing the user interface, implementing aesthetic elements such as fonts and app background images, and ensuring a cohesive visual experience for users.
+
+(2)Provide the GitHub link to your project. This will allow me to evaluate the collaboration among group members:
+You can evaluate our collaboration and review our project by visiting our GitHub repository at GitHub link: https://github.com/YungShrk/chattykathy.
+
+(3)Mention if you have executed any test plans that you outlined in your test plan documentation:
+Yes, we have executed several test plans as outlined in our test plan documentation. These include MongoDB tests to verify database interactions and Postman tests to ensure proper functioning of our API endpoints.
+
+(4)If you have implemented any testing, you can include it in the GitHub repository:
+We have included the results and documentation of our tests in the GitHub repository for your review.
+
+(5)If you have deployed your website, include the deployment link:
+We have not deployed the website.
+
+(6)Finally, make sure your repository is public. If it is private, add me as a collaborator.
+The repository is public and accessible to everyone!
+
+Instructions:
+
+Set up .env:
 PORT=5000
 MONGO_DB_URI="mongodb+srv://wyattprutch:cs314@chatapp.8q1skba.mongodb.net/?retryWrites=true&w=majority&appName=chatapp"
 JWT_SECRET=eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTcxNzczOTAzNSwiaWF0IjoxNzE3NzM5MDM1fQ.qtzq3qjGkr9YKQTQfiLFTkjqcQOODYMpF5olCZvnjX4
-
 NODE_ENV=development
+
+Build the app:
+npm run build
+
+Fix any vulnerabilites:
+npm audit fix
+
+Start the app:
+npm start
+
+Open app in browser:
+localhost:5000
+
+You're all good after that to use the app!
+
+Disclaimer: Our sockets are acting weird, and the group chat creation and chat deletion features are only partly implemented.
